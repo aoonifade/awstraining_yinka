@@ -1,11 +1,11 @@
 variable "region" {
-default = "us-west-2"
+default = "us-east-1"
 }
 variable "instance_type" {
 default = "t2.micro"
 }
 variable "instance_key" {
-default = "<replace with your existing key pair"
+default = "Yinkus"
 }
 variable "vpc_cidr" {
 default = "178.0.0.0/16"
